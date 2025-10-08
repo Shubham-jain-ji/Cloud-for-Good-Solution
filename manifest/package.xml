@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>GetVolunteerShifts</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>Volunteer_Program_Management</members>
+		<name>CustomApplication</name>
+	</types>
+	<types>
+		<members>Volunteer_Hour__c.ApplicationSource__c</members>
+		<members>Volunteer_Hour__c.EligibilityChecked__c</members>
+		<members>Volunteer_Hour__c.HoursWorked__c</members>
+		<members>Volunteer_Hour__c.RegistrationDate__c</members>
+		<members>Volunteer_Hour__c.Status__c</members>
+		<members>Volunteer_Hour__c.VolunteerComments__c</members>
+		<members>Volunteer_Hour__c.Volunteer_Shift__c</members>
+		<members>Volunteer_Hour__c.Volunteer__c</members>
+		<members>Volunteer_Job__c.Description__c</members>
+		<members>Volunteer_Job__c.MinAge__c</members>
+		<members>Volunteer_Job__c.Required_Training__c</members>
+		<members>Volunteer_Job__c.SkillRequired__c</members>
+		<members>Volunteer_Job__c.Total_Slots_c__c</members>
+		<members>Volunteer_Job__c.Volunteer_Program__c</members>
+		<members>Volunteer_Program__c.Active__c</members>
+		<members>Volunteer_Program__c.Description__c</members>
+		<members>Volunteer_Program__c.End_Date__c</members>
+		<members>Volunteer_Program__c.MaxVolunteers__c</members>
+		<members>Volunteer_Program__c.ProgramCategory__c</members>
+		<members>Volunteer_Program__c.ProgramLocation__c</members>
+		<members>Volunteer_Program__c.Start_Date__c</members>
+		<members>Volunteer_Program__c.Status__c</members>
+		<members>Volunteer_Program__c.Type__c</members>
+		<members>Volunteer_Shift__c.EligibilityMessage__c</members>
+		<members>Volunteer_Shift__c.EndTime__c</members>
+		<members>Volunteer_Shift__c.Location__c</members>
+		<members>Volunteer_Shift__c.MaxVolunteers__c</members>
+		<members>Volunteer_Shift__c.Remaining_Slots__c</members>
+		<members>Volunteer_Shift__c.StartTime__c</members>
+		<members>Volunteer_Shift__c.Status__c</members>
+		<members>Volunteer_Shift__c.Volunteer_Job__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>Contact</members>
+		<members>Volunteer_Hour__c</members>
+		<members>Volunteer_Job__c</members>
+		<members>Volunteer_Program__c</members>
+		<members>Volunteer_Shift__c</members>
+		<members>Volunteer__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Volunteer_Portal</members>
+		<name>CustomSite</name>
+	</types>
+	<types>
+		<members>Volunteer_Portal1</members>
+		<name>ExperienceBundle</name>
+	</types>
+	<types>
+		<members>Contact-Contact Layout</members>
+		<members>Contact-Volunteer Layout</members>
+		<members>Volunteer_Hour__c-Volunteer Hour Layout</members>
+		<members>Volunteer_Job__c-Volunteer Job Layout</members>
+		<members>Volunteer_Program__c-Volunteer Program Layout</members>
+		<members>Volunteer_Shift__c-Volunteer Shift Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>Volunteer Portal</members>
+		<name>Network</name>
+	</types>
+	<types>
+		<members>DRGetLoggedInContact_1</members>
+		<members>DRGetShifts_1</members>
+		<members>DRGetVolunteerPrograms_1</members>
+		<members>DRGetVolunteerShifts_1</members>
+		<name>OmniDataTransform</name>
+	</types>
+	<types>
+		<members>VolunteerReg_ShiftRegister_English_1</members>
+		<members>VolunteerReg_ShiftRegister_English_2</members>
+		<name>OmniScript</name>
+	</types>
+	<types>
+		<members>AvailablePrograms_SH_1</members>
+		<members>Available_Shifts_Developer_1</members>
+		<name>OmniUiCard</name>
+	</types>
+	<types>
+		<members>Volunteer</members>
+		<name>Profile</name>
+	</types>
+	<types>
+		<members>Volunteer_Portal1</members>
+		<name>SiteDotCom</name>
+	</types>
+	<version>64.0</version>
+</Package>
